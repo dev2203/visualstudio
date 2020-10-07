@@ -31,7 +31,7 @@ namespace devops
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            //changes made
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
